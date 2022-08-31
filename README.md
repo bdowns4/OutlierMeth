@@ -1,7 +1,7 @@
 # BinaryMeth
 
 
-This R package was designed to standardize an approach to binarize Illumina Human 450K array DNA methylation data.
+The BinaryMeth R package was designed to standardize an approach to binarize Illumina Human 450K array DNA methylation data.
 ---
 
 ## Changelog
