@@ -28,4 +28,4 @@ The two functions in the BinaryMeth package are **binarizeMeth** and **reference
 
 -The function **referenceMeth** makes new reference datasets.
 
-The user can select the significance levels **0.01**, **0.001**, **0.0001**, and **0.00001**, for three collections of reference samples: **tcga**, **geo**, and **all** (tcga-geo) combined.
+When binarizing the DNA methylation data, the user can select the significance levels **0.01**, **0.001**, **0.0001**, and **0.00001**, for three collections of reference samples: **tcga**, **geo**, and **all** (tcga-geo) combined.
