@@ -20,6 +20,25 @@ Please download the R Package [here]
 
 https://github.com/bdowns4/BinaryMeth.git
 
+#### Step 2: Unzip file.
+
+
+#### Step 3: Build the package.
+
+In the terminal window, go to the downloaded directory BinaryMeth-main and build the package with the agrument:
+
+(R CMD BUILD BinaryMeth)
+
+#### Step 4: Install the R the package.
+
+In the R program, install the package with the function:
+
+install.packages("~/Path/BinaryMeth_1.0.tar.gz", repos = NULL, type = "source")
+
+#### Step 5:Load the R the package.
+
+library(BinaryMeth)
+
 ## Usage
 
 The two functions in the BinaryMeth package are **binarizeMeth** and **referenceMeth**.
