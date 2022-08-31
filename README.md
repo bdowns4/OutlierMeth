@@ -31,7 +31,7 @@ In the terminal window, go to the downloaded directory BinaryMeth-main and build
 
 #### Step 4: Install the R the package.
 
-In the R program, install the package with the function:
+In R, install the package with the function:
 
 install.packages("~/Path/BinaryMeth_1.0.tar.gz", repos = NULL, type = "source")
 
