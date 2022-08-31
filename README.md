@@ -22,7 +22,7 @@ https://github.com/bdowns4/BinaryMeth.git
 
 ## Usage
 
-The two functions in the BinaryMeth package are ##binarizeMeth and ##referenceMeth.
+The two functions in the BinaryMeth package are **binarizeMeth** and **referenceMeth**.
 
 -The function binarizeMeth binarizes Illumina Human 450K array DNA methylation data.
 
