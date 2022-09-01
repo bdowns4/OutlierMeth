@@ -18,7 +18,7 @@ The preferred method for downloading this script file is through github.
 
 Please download the R Package [BinaryMeth_1.0.tar.gz] 
 
-https://github.com/bdowns4/BinaryMeth/tree/master
+https://github.com/bdowns4/BinaryMeth/blob/master/BinaryMeth_1.0.tar.gz
 
 #### Step 2: Unzip file.
 
