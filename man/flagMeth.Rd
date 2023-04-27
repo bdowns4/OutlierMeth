@@ -8,7 +8,7 @@ Flagging outlier function
 Flags outliers using beta values from normal tissue referance thresholds. 
 }
 \usage{
-flagMeth(beta, reference = c(all, tcga, geo), p = c(0.01, 0.001, 0.0001, 0.00001))
+flagMeth(beta, reference = c(all, tcga, geo, blood), p = c(0.01, 0.001, 0.0001, 0.00001))
 }
 \arguments{
   \item{beta}{
@@ -37,7 +37,7 @@ Bradley Downs and Leslie Cope
 outlierData=flagMeth(example_data, reference = all, p = 0.01) 
 
 ## The function is currently defined as
-function (beta, reference = (all, tcga, geo), p = (0.01, 0.001, 
+function (beta, reference = (all, tcga, geo, blood), p = (0.01, 0.001, 
     0.0001, 0.00001)) 
 {
    options(scipen = 999)
