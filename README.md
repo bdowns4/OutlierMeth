@@ -41,4 +41,4 @@ The two functions in the OutlierMeth package are **flagMeth** and **referenceMet
 
 -The function **referenceMeth** makes new reference datasets.
 
-When flagging the outliers the DNA methylation data, the user can select the significance levels **0.01**, **0.001**, **0.0001**, and **0.00001**, for three collections of reference samples: **tcga**, **geo**, and **all** (tcga-geo) combined.
+When flagging the outliers the DNA methylation data, the user can select the significance levels **0.01**, **0.001**, **0.0001**, and **0.00001**, for four collections of reference samples: **tcga**, **geo**, **all** (tcga-geo) combined, and **blood**.
