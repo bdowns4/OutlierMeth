@@ -1,5 +1,5 @@
 flagMeth <-
-function(beta,reference=(all), p=(0.01)) {
+function(beta,reference=c("all","tcga","geo","blood", p=(0.01)) {
 
 options(scipen = 999)
 
