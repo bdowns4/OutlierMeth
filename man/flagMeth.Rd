@@ -34,16 +34,16 @@ Bradley Downs and Leslie Cope
 }
 
 \examples{
-##defalt is the all reference
+##defalt is the all reference at p = 0.01
 
-outlierData=flagMeth(example_data, p = 0.01) 
+outlierData=flagMeth(example_data) 
 
-##for a specific reference 
+##for a specific reference and p
 
-outlierData=flagMeth(example_data, reference = c("all"), p = 0.01) 
-outlierData=flagMeth(example_data, reference = c("tcga"), p = 0.01) 
-outlierData=flagMeth(example_data, reference = c("geo"), p = 0.01) 
-outlierData=flagMeth(example_data, reference = c("blood"), p = 0.01) 
+outlierData=flagMeth(example_data, "all", p = 0.00001) 
+outlierData=flagMeth(example_data, "tcga", p = 0.00001) 
+outlierData=flagMeth(example_data, "geo", p = 0.00001) 
+outlierData=flagMeth(example_data, "blood", p = 0.00001) 
   
 ## The function is currently defined as
 function (beta, reference = c("all", "tcga", "geo", "blood"), p = (0.01, 0.001, 
