@@ -34,9 +34,9 @@ Bradley Downs and Leslie Cope
 }
 
 \examples{
-##defalt is the all reference at p = 0.01
+##Need to call reference and p
 
-outlierData=flagMeth(example_data) 
+outlierData=flagMeth(example_data,all, p = 0.01) 
 
 ##for a specific reference and p
 
