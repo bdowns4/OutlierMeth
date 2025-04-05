@@ -50,3 +50,8 @@ The four functions in the OutlierMeth package are **flagMeth**, **deltMeth**, **
 When flagging the outliers the DNA methylation data, the user can select the significance levels **0.01**, **0.001**, **0.0001**, and **0.00001**, for four collections of reference samples: **tcga**, **geo**, **all** (tcga-geo) combined, and **blood**.
 
 ##Note: The references geo and all no longer include dataset GSE127857
+
+## Citation
+Downs BM, Thursby SJ, Cope L. Detecting aberrant DNA methylation in Illumina DNA methylation arrays: a toolbox and recommendations for its use. Epigenetics. 2023 Dec;18(1):2213874. doi: 10.1080/15592294.2023.2213874. PubMed PMID: 37218167.
+
+-https://doi.org/10.1080/15592294.2023.2213874
